@@ -1,7 +1,7 @@
 use iced::{Border, Shadow, widget::button};
 
-pub fn dir_button_style() -> impl Fn(&iced::Theme, button::Status) -> button::Style
-{
+pub fn dir_button_style()
+-> impl Fn(&iced::Theme, button::Status) -> button::Style {
     |_t, _e| button::Style {
         background: None,
         text_color: iced::Color::from_rgb(
